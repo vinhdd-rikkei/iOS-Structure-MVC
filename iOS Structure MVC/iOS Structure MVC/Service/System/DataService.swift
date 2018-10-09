@@ -1,9 +1,9 @@
 //
-//  DatabaseService.swift
-//  Hemophilia_iOS
+//  DataService.swift
+//  iOS Structure MVC
 //
-//  Created by vinhdd on 8/12/18.
-//  Copyright © 2018 Rikkeisoft. All rights reserved.
+//  Created by vinhdd on 10/9/18.
+//  Copyright © 2018 vinhdd. All rights reserved.
 //
 
 import UIKit

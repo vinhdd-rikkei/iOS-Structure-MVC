@@ -1,9 +1,9 @@
 //
 //  AlertService.swift
-//  Hemophilia_iOS
+//  iOS Structure MVC
 //
-//  Created by Vinh Dang on 10/3/18.
-//  Copyright © 2018 Rikkeisoft. All rights reserved.
+//  Created by vinhdd on 10/9/18.
+//  Copyright © 2018 vinhdd. All rights reserved.
 //
 
 import UIKit
