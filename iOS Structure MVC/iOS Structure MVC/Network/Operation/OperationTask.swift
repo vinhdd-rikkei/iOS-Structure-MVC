@@ -208,12 +208,12 @@ class OperationTask<T: ModelResponseProtocol>: OperationProtocol {
     
     // MARK: - Alerts
     private func showAlertFor(apiError: APIError) {
-        let message = apiError.message
+        //let message = apiError.message
         // TODO: - Show api error alert automatically
     }
     
     private func showAlertFor(requestError: Error) {
-        let message = requestErrorFixedMessage ?? requestError.localizedDescription
+        //let message = requestErrorFixedMessage ?? requestError.localizedDescription
         // TODO: - Show request error alert automatically
     }
 }

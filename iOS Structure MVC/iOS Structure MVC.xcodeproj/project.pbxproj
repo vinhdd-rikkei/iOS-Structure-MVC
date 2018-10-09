@@ -198,6 +198,99 @@
 		951EFB57216C667D004A8C67 /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB53216C667D004A8C67 /* BaseNavigationVC.swift */; };
 		951EFB58216C667D004A8C67 /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB53216C667D004A8C67 /* BaseNavigationVC.swift */; };
 		951EFB59216C667D004A8C67 /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB53216C667D004A8C67 /* BaseNavigationVC.swift */; };
+		951EFB5E216C6963004A8C67 /* ColorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB5D216C6963004A8C67 /* ColorImageView.swift */; };
+		951EFB5F216C6963004A8C67 /* ColorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB5D216C6963004A8C67 /* ColorImageView.swift */; };
+		951EFB60216C6963004A8C67 /* ColorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB5D216C6963004A8C67 /* ColorImageView.swift */; };
+		951EFB64216C697E004A8C67 /* InsetTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB62216C697E004A8C67 /* InsetTextView.swift */; };
+		951EFB65216C697E004A8C67 /* InsetTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB62216C697E004A8C67 /* InsetTextView.swift */; };
+		951EFB66216C697E004A8C67 /* InsetTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB62216C697E004A8C67 /* InsetTextView.swift */; };
+		951EFB67216C697E004A8C67 /* BaseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB63216C697E004A8C67 /* BaseTextView.swift */; };
+		951EFB68216C697E004A8C67 /* BaseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB63216C697E004A8C67 /* BaseTextView.swift */; };
+		951EFB69216C697E004A8C67 /* BaseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB63216C697E004A8C67 /* BaseTextView.swift */; };
+		951EFB6C216C69B3004A8C67 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB6B216C69B3004A8C67 /* InsetTextField.swift */; };
+		951EFB6D216C69B3004A8C67 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB6B216C69B3004A8C67 /* InsetTextField.swift */; };
+		951EFB6E216C69B3004A8C67 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB6B216C69B3004A8C67 /* InsetTextField.swift */; };
+		951EFB71216C69CF004A8C67 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB70216C69CF004A8C67 /* InsetLabel.swift */; };
+		951EFB72216C69CF004A8C67 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB70216C69CF004A8C67 /* InsetLabel.swift */; };
+		951EFB73216C69CF004A8C67 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB70216C69CF004A8C67 /* InsetLabel.swift */; };
+		951EFB79216C69E7004A8C67 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB75216C69E6004A8C67 /* ShadowButton.swift */; };
+		951EFB7A216C69E7004A8C67 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB75216C69E6004A8C67 /* ShadowButton.swift */; };
+		951EFB7B216C69E7004A8C67 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB75216C69E6004A8C67 /* ShadowButton.swift */; };
+		951EFB7C216C69E7004A8C67 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB76216C69E6004A8C67 /* GradientButton.swift */; };
+		951EFB7D216C69E7004A8C67 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB76216C69E6004A8C67 /* GradientButton.swift */; };
+		951EFB7E216C69E7004A8C67 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB76216C69E6004A8C67 /* GradientButton.swift */; };
+		951EFB82216C69E7004A8C67 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB78216C69E7004A8C67 /* CheckBox.swift */; };
+		951EFB83216C69E7004A8C67 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB78216C69E7004A8C67 /* CheckBox.swift */; };
+		951EFB84216C69E7004A8C67 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB78216C69E7004A8C67 /* CheckBox.swift */; };
+		951EFB87216C6AB0004A8C67 /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB86216C6AB0004A8C67 /* GradientLayer.swift */; };
+		951EFB88216C6AB0004A8C67 /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB86216C6AB0004A8C67 /* GradientLayer.swift */; };
+		951EFB89216C6AB0004A8C67 /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB86216C6AB0004A8C67 /* GradientLayer.swift */; };
+		951EFB97216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB8B216C6ACB004A8C67 /* CTSwitchCell.swift */; };
+		951EFB98216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB8B216C6ACB004A8C67 /* CTSwitchCell.swift */; };
+		951EFB99216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB8B216C6ACB004A8C67 /* CTSwitchCell.swift */; };
+		951EFB9A216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB8C216C6ACB004A8C67 /* CTTableFooterView.swift */; };
+		951EFB9B216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB8C216C6ACB004A8C67 /* CTTableFooterView.swift */; };
+		951EFB9C216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB8C216C6ACB004A8C67 /* CTTableFooterView.swift */; };
+		951EFB9D216C6ACD004A8C67 /* CTSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8D216C6ACB004A8C67 /* CTSwitchCell.xib */; };
+		951EFB9E216C6ACD004A8C67 /* CTSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8D216C6ACB004A8C67 /* CTSwitchCell.xib */; };
+		951EFB9F216C6ACD004A8C67 /* CTSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8D216C6ACB004A8C67 /* CTSwitchCell.xib */; };
+		951EFBA0216C6ACD004A8C67 /* CTTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8E216C6ACC004A8C67 /* CTTableHeaderView.xib */; };
+		951EFBA1216C6ACD004A8C67 /* CTTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8E216C6ACC004A8C67 /* CTTableHeaderView.xib */; };
+		951EFBA2216C6ACD004A8C67 /* CTTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8E216C6ACC004A8C67 /* CTTableHeaderView.xib */; };
+		951EFBA3216C6ACD004A8C67 /* CTTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8F216C6ACC004A8C67 /* CTTableFooterView.xib */; };
+		951EFBA4216C6ACD004A8C67 /* CTTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8F216C6ACC004A8C67 /* CTTableFooterView.xib */; };
+		951EFBA5216C6ACD004A8C67 /* CTTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB8F216C6ACC004A8C67 /* CTTableFooterView.xib */; };
+		951EFBA6216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB90216C6ACC004A8C67 /* CTTableHeaderView.swift */; };
+		951EFBA7216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB90216C6ACC004A8C67 /* CTTableHeaderView.swift */; };
+		951EFBA8216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB90216C6ACC004A8C67 /* CTTableHeaderView.swift */; };
+		951EFBA9216C6ACD004A8C67 /* CTBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB91216C6ACC004A8C67 /* CTBaseCell.swift */; };
+		951EFBAA216C6ACD004A8C67 /* CTBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB91216C6ACC004A8C67 /* CTBaseCell.swift */; };
+		951EFBAB216C6ACD004A8C67 /* CTBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB91216C6ACC004A8C67 /* CTBaseCell.swift */; };
+		951EFBAC216C6ACD004A8C67 /* CTPushDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB92216C6ACD004A8C67 /* CTPushDetailCell.xib */; };
+		951EFBAD216C6ACD004A8C67 /* CTPushDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB92216C6ACD004A8C67 /* CTPushDetailCell.xib */; };
+		951EFBAE216C6ACD004A8C67 /* CTPushDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB92216C6ACD004A8C67 /* CTPushDetailCell.xib */; };
+		951EFBAF216C6ACD004A8C67 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB93216C6ACD004A8C67 /* BaseTableView.swift */; };
+		951EFBB0216C6ACD004A8C67 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB93216C6ACD004A8C67 /* BaseTableView.swift */; };
+		951EFBB1216C6ACD004A8C67 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB93216C6ACD004A8C67 /* BaseTableView.swift */; };
+		951EFBB2216C6ACD004A8C67 /* CTCheckmarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB94216C6ACD004A8C67 /* CTCheckmarkCell.xib */; };
+		951EFBB3216C6ACD004A8C67 /* CTCheckmarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB94216C6ACD004A8C67 /* CTCheckmarkCell.xib */; };
+		951EFBB4216C6ACD004A8C67 /* CTCheckmarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFB94216C6ACD004A8C67 /* CTCheckmarkCell.xib */; };
+		951EFBB5216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB95216C6ACD004A8C67 /* CTCheckmarkCell.swift */; };
+		951EFBB6216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB95216C6ACD004A8C67 /* CTCheckmarkCell.swift */; };
+		951EFBB7216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB95216C6ACD004A8C67 /* CTCheckmarkCell.swift */; };
+		951EFBB8216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB96216C6ACD004A8C67 /* CTPushDetailCell.swift */; };
+		951EFBB9216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB96216C6ACD004A8C67 /* CTPushDetailCell.swift */; };
+		951EFBBA216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFB96216C6ACD004A8C67 /* CTPushDetailCell.swift */; };
+		951EFBBD216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBBC216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift */; };
+		951EFBBE216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBBC216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift */; };
+		951EFBBF216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBBC216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift */; };
+		951EFBC6216C6C1D004A8C67 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC1216C6C1C004A8C67 /* RoundedView.swift */; };
+		951EFBC7216C6C1D004A8C67 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC1216C6C1C004A8C67 /* RoundedView.swift */; };
+		951EFBC8216C6C1D004A8C67 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC1216C6C1C004A8C67 /* RoundedView.swift */; };
+		951EFBC9216C6C1D004A8C67 /* CustomNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC2216C6C1C004A8C67 /* CustomNibView.swift */; };
+		951EFBCA216C6C1D004A8C67 /* CustomNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC2216C6C1C004A8C67 /* CustomNibView.swift */; };
+		951EFBCB216C6C1D004A8C67 /* CustomNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC2216C6C1C004A8C67 /* CustomNibView.swift */; };
+		951EFBCC216C6C1D004A8C67 /* TapActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC3216C6C1D004A8C67 /* TapActionView.swift */; };
+		951EFBCD216C6C1D004A8C67 /* TapActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC3216C6C1D004A8C67 /* TapActionView.swift */; };
+		951EFBCE216C6C1D004A8C67 /* TapActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC3216C6C1D004A8C67 /* TapActionView.swift */; };
+		951EFBCF216C6C1D004A8C67 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC4216C6C1D004A8C67 /* ShadowView.swift */; };
+		951EFBD0216C6C1D004A8C67 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC4216C6C1D004A8C67 /* ShadowView.swift */; };
+		951EFBD1216C6C1D004A8C67 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC4216C6C1D004A8C67 /* ShadowView.swift */; };
+		951EFBD2216C6C1D004A8C67 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC5216C6C1D004A8C67 /* GradientView.swift */; };
+		951EFBD3216C6C1D004A8C67 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC5216C6C1D004A8C67 /* GradientView.swift */; };
+		951EFBD4216C6C1D004A8C67 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBC5216C6C1D004A8C67 /* GradientView.swift */; };
+		951EFBD6216C6C71004A8C67 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBD5216C6C71004A8C67 /* BorderTextField.swift */; };
+		951EFBD7216C6C71004A8C67 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBD5216C6C71004A8C67 /* BorderTextField.swift */; };
+		951EFBD8216C6C71004A8C67 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBD5216C6C71004A8C67 /* BorderTextField.swift */; };
+		951EFBDA216C6CA5004A8C67 /* CustomInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBD9216C6CA5004A8C67 /* CustomInApp.swift */; };
+		951EFBDB216C6CA5004A8C67 /* CustomInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBD9216C6CA5004A8C67 /* CustomInApp.swift */; };
+		951EFBDC216C6CA5004A8C67 /* CustomInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBD9216C6CA5004A8C67 /* CustomInApp.swift */; };
+		951EFBDF216C6F83004A8C67 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBDD216C6F83004A8C67 /* DatePicker.swift */; };
+		951EFBE0216C6F83004A8C67 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBDD216C6F83004A8C67 /* DatePicker.swift */; };
+		951EFBE1216C6F83004A8C67 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFBDD216C6F83004A8C67 /* DatePicker.swift */; };
+		951EFBE2216C6F83004A8C67 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFBDE216C6F83004A8C67 /* DatePicker.xib */; };
+		951EFBE3216C6F83004A8C67 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFBDE216C6F83004A8C67 /* DatePicker.xib */; };
+		951EFBE4216C6F83004A8C67 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFBDE216C6F83004A8C67 /* DatePicker.xib */; };
 		C2174E4A148D02288F75E308 /* Pods_AppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EA460FF6FD3BA24DE7D361 /* Pods_AppStore.framework */; };
 /* End PBXBuildFile section */
 
@@ -275,6 +368,37 @@
 		951EFB4A216C6659004A8C67 /* LoadingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingVC.xib; sourceTree = "<group>"; };
 		951EFB52216C667D004A8C67 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		951EFB53216C667D004A8C67 /* BaseNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationVC.swift; sourceTree = "<group>"; };
+		951EFB5D216C6963004A8C67 /* ColorImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorImageView.swift; sourceTree = "<group>"; };
+		951EFB62216C697E004A8C67 /* InsetTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetTextView.swift; sourceTree = "<group>"; };
+		951EFB63216C697E004A8C67 /* BaseTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextView.swift; sourceTree = "<group>"; };
+		951EFB6B216C69B3004A8C67 /* InsetTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		951EFB70216C69CF004A8C67 /* InsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
+		951EFB75216C69E6004A8C67 /* ShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		951EFB76216C69E6004A8C67 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		951EFB78216C69E7004A8C67 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		951EFB86216C6AB0004A8C67 /* GradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLayer.swift; sourceTree = "<group>"; };
+		951EFB8B216C6ACB004A8C67 /* CTSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTSwitchCell.swift; sourceTree = "<group>"; };
+		951EFB8C216C6ACB004A8C67 /* CTTableFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTTableFooterView.swift; sourceTree = "<group>"; };
+		951EFB8D216C6ACB004A8C67 /* CTSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTSwitchCell.xib; sourceTree = "<group>"; };
+		951EFB8E216C6ACC004A8C67 /* CTTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTTableHeaderView.xib; sourceTree = "<group>"; };
+		951EFB8F216C6ACC004A8C67 /* CTTableFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTTableFooterView.xib; sourceTree = "<group>"; };
+		951EFB90216C6ACC004A8C67 /* CTTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTTableHeaderView.swift; sourceTree = "<group>"; };
+		951EFB91216C6ACC004A8C67 /* CTBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTBaseCell.swift; sourceTree = "<group>"; };
+		951EFB92216C6ACD004A8C67 /* CTPushDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTPushDetailCell.xib; sourceTree = "<group>"; };
+		951EFB93216C6ACD004A8C67 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		951EFB94216C6ACD004A8C67 /* CTCheckmarkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTCheckmarkCell.xib; sourceTree = "<group>"; };
+		951EFB95216C6ACD004A8C67 /* CTCheckmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTCheckmarkCell.swift; sourceTree = "<group>"; };
+		951EFB96216C6ACD004A8C67 /* CTPushDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTPushDetailCell.swift; sourceTree = "<group>"; };
+		951EFBBC216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandlerScrollView.swift; sourceTree = "<group>"; };
+		951EFBC1216C6C1C004A8C67 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		951EFBC2216C6C1C004A8C67 /* CustomNibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNibView.swift; sourceTree = "<group>"; };
+		951EFBC3216C6C1D004A8C67 /* TapActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapActionView.swift; sourceTree = "<group>"; };
+		951EFBC4216C6C1D004A8C67 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		951EFBC5216C6C1D004A8C67 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		951EFBD5216C6C71004A8C67 /* BorderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
+		951EFBD9216C6CA5004A8C67 /* CustomInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInApp.swift; sourceTree = "<group>"; };
+		951EFBDD216C6F83004A8C67 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		951EFBDE216C6F83004A8C67 /* DatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
 		AA113589E48F7B82D6A78DBA /* Pods_Develop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Develop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58CD037A5D7DA141F3522F1 /* Pods-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Staging/Pods-Staging.release.xcconfig"; sourceTree = "<group>"; };
 		E9BC75B769C5773AA65EE1CF /* Pods_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -405,7 +529,8 @@
 		951EFA30216C3BA7004A8C67 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				951EFA9C216C5263004A8C67 /* Picker */,
+				951EFB5B216C6953004A8C67 /* InApp */,
+				951EFB5A216C691B004A8C67 /* Custom */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -563,9 +688,12 @@
 		951EFA9C216C5263004A8C67 /* Picker */ = {
 			isa = PBXGroup;
 			children = (
+				951EFABA216C5928004A8C67 /* PickerViewer.swift */,
 				951EFA9D216C5271004A8C67 /* BasePicker.swift */,
 				951EFAA1216C5272004A8C67 /* TextPicker.swift */,
 				951EFA9E216C5271004A8C67 /* TextPicker.xib */,
+				951EFBDD216C6F83004A8C67 /* DatePicker.swift */,
+				951EFBDE216C6F83004A8C67 /* DatePicker.xib */,
 				951EFA9F216C5271004A8C67 /* DateTimePicker.swift */,
 				951EFAA0216C5271004A8C67 /* DateTimePicker.xib */,
 			);
@@ -575,6 +703,7 @@
 		951EFAB1216C585A004A8C67 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				951EFA9C216C5263004A8C67 /* Picker */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -594,7 +723,6 @@
 			children = (
 				951EFABD216C5928004A8C67 /* IndicatorViewer.swift */,
 				951EFABC216C5928004A8C67 /* AutoLayoutHelper.swift */,
-				951EFABA216C5928004A8C67 /* PickerViewer.swift */,
 				951EFAB9216C5928004A8C67 /* RetryHandler.swift */,
 			);
 			path = Helper;
@@ -729,6 +857,121 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		951EFB5A216C691B004A8C67 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				951EFBC0216C6C13004A8C67 /* View */,
+				951EFBBB216C6B81004A8C67 /* ScrollView */,
+				951EFB8A216C6AC0004A8C67 /* TableView */,
+				951EFB85216C6AA3004A8C67 /* Layer */,
+				951EFB74216C69DE004A8C67 /* Button */,
+				951EFB6F216C69C2004A8C67 /* Label */,
+				951EFB6A216C69A2004A8C67 /* TextField */,
+				951EFB61216C6972004A8C67 /* TextView */,
+				951EFB5C216C695C004A8C67 /* ImageView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		951EFB5B216C6953004A8C67 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				951EFBD9216C6CA5004A8C67 /* CustomInApp.swift */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		951EFB5C216C695C004A8C67 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB5D216C6963004A8C67 /* ColorImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		951EFB61216C6972004A8C67 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB63216C697E004A8C67 /* BaseTextView.swift */,
+				951EFB62216C697E004A8C67 /* InsetTextView.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		951EFB6A216C69A2004A8C67 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB6B216C69B3004A8C67 /* InsetTextField.swift */,
+				951EFBD5216C6C71004A8C67 /* BorderTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		951EFB6F216C69C2004A8C67 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB70216C69CF004A8C67 /* InsetLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		951EFB74216C69DE004A8C67 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB76216C69E6004A8C67 /* GradientButton.swift */,
+				951EFB78216C69E7004A8C67 /* CheckBox.swift */,
+				951EFB75216C69E6004A8C67 /* ShadowButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		951EFB85216C6AA3004A8C67 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB86216C6AB0004A8C67 /* GradientLayer.swift */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		951EFB8A216C6AC0004A8C67 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				951EFB93216C6ACD004A8C67 /* BaseTableView.swift */,
+				951EFB90216C6ACC004A8C67 /* CTTableHeaderView.swift */,
+				951EFB8E216C6ACC004A8C67 /* CTTableHeaderView.xib */,
+				951EFB8C216C6ACB004A8C67 /* CTTableFooterView.swift */,
+				951EFB8F216C6ACC004A8C67 /* CTTableFooterView.xib */,
+				951EFB91216C6ACC004A8C67 /* CTBaseCell.swift */,
+				951EFB96216C6ACD004A8C67 /* CTPushDetailCell.swift */,
+				951EFB92216C6ACD004A8C67 /* CTPushDetailCell.xib */,
+				951EFB95216C6ACD004A8C67 /* CTCheckmarkCell.swift */,
+				951EFB94216C6ACD004A8C67 /* CTCheckmarkCell.xib */,
+				951EFB8B216C6ACB004A8C67 /* CTSwitchCell.swift */,
+				951EFB8D216C6ACB004A8C67 /* CTSwitchCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		951EFBBB216C6B81004A8C67 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				951EFBBC216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		951EFBC0216C6C13004A8C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				951EFBC2216C6C1C004A8C67 /* CustomNibView.swift */,
+				951EFBC5216C6C1D004A8C67 /* GradientView.swift */,
+				951EFBC4216C6C1D004A8C67 /* ShadowView.swift */,
+				951EFBC1216C6C1C004A8C67 /* RoundedView.swift */,
+				951EFBC3216C6C1D004A8C67 /* TapActionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -837,11 +1080,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				951EFAAB216C5272004A8C67 /* DateTimePicker.xib in Resources */,
+				951EFBAC216C6ACD004A8C67 /* CTPushDetailCell.xib in Resources */,
+				951EFBA0216C6ACD004A8C67 /* CTTableHeaderView.xib in Resources */,
+				951EFB9D216C6ACD004A8C67 /* CTSwitchCell.xib in Resources */,
 				951EFB4E216C6659004A8C67 /* LoadingVC.xib in Resources */,
 				951EFA0D216C3966004A8C67 /* LaunchScreen.storyboard in Resources */,
 				951EFA45216C3C80004A8C67 /* Localizable.strings in Resources */,
+				951EFBE2216C6F83004A8C67 /* DatePicker.xib in Resources */,
 				951EFAA5216C5272004A8C67 /* TextPicker.xib in Resources */,
 				951EFA0A216C3966004A8C67 /* Assets.xcassets in Resources */,
+				951EFBA3216C6ACD004A8C67 /* CTTableFooterView.xib in Resources */,
+				951EFBB2216C6ACD004A8C67 /* CTCheckmarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -850,11 +1099,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				951EFAAC216C5272004A8C67 /* DateTimePicker.xib in Resources */,
+				951EFBAD216C6ACD004A8C67 /* CTPushDetailCell.xib in Resources */,
+				951EFBA1216C6ACD004A8C67 /* CTTableHeaderView.xib in Resources */,
+				951EFB9E216C6ACD004A8C67 /* CTSwitchCell.xib in Resources */,
 				951EFB4F216C6659004A8C67 /* LoadingVC.xib in Resources */,
 				951EFA19216C39AA004A8C67 /* LaunchScreen.storyboard in Resources */,
 				951EFA46216C3C80004A8C67 /* Localizable.strings in Resources */,
+				951EFBE3216C6F83004A8C67 /* DatePicker.xib in Resources */,
 				951EFAA6216C5272004A8C67 /* TextPicker.xib in Resources */,
 				951EFA1A216C39AA004A8C67 /* Assets.xcassets in Resources */,
+				951EFBA4216C6ACD004A8C67 /* CTTableFooterView.xib in Resources */,
+				951EFBB3216C6ACD004A8C67 /* CTCheckmarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,11 +1118,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				951EFAAD216C5272004A8C67 /* DateTimePicker.xib in Resources */,
+				951EFBAE216C6ACD004A8C67 /* CTPushDetailCell.xib in Resources */,
+				951EFBA2216C6ACD004A8C67 /* CTTableHeaderView.xib in Resources */,
+				951EFB9F216C6ACD004A8C67 /* CTSwitchCell.xib in Resources */,
 				951EFB50216C6659004A8C67 /* LoadingVC.xib in Resources */,
 				951EFA25216C39B1004A8C67 /* LaunchScreen.storyboard in Resources */,
 				951EFA47216C3C80004A8C67 /* Localizable.strings in Resources */,
+				951EFBE4216C6F83004A8C67 /* DatePicker.xib in Resources */,
 				951EFAA7216C5272004A8C67 /* TextPicker.xib in Resources */,
 				951EFA26216C39B1004A8C67 /* Assets.xcassets in Resources */,
+				951EFBA5216C6ACD004A8C67 /* CTTableFooterView.xib in Resources */,
+				951EFBB4216C6ACD004A8C67 /* CTCheckmarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,33 +1288,51 @@
 				951EFAFF216C5A50004A8C67 /* UIScrollView+Extension.swift in Sources */,
 				951EFA65216C45E1004A8C67 /* DispatcherProtocol.swift in Sources */,
 				951EFB17216C5F12004A8C67 /* Int+Extension.swift in Sources */,
+				951EFBC6216C6C1D004A8C67 /* RoundedView.swift in Sources */,
 				951EFA84216C4622004A8C67 /* ErrorExtension.swift in Sources */,
 				951EFB44216C622D004A8C67 /* DataService.swift in Sources */,
+				951EFB71216C69CF004A8C67 /* InsetLabel.swift in Sources */,
 				951EFB05216C5B17004A8C67 /* UIViewController+Extension.swift in Sources */,
+				951EFB64216C697E004A8C67 /* InsetTextView.swift in Sources */,
+				951EFBD2216C6C1D004A8C67 /* GradientView.swift in Sources */,
 				951EFAA8216C5272004A8C67 /* DateTimePicker.swift in Sources */,
+				951EFB82216C69E7004A8C67 /* CheckBox.swift in Sources */,
+				951EFBDA216C6CA5004A8C67 /* CustomInApp.swift in Sources */,
 				951EFA7A216C45F9004A8C67 /* APIServiceError.swift in Sources */,
 				951EFAFC216C5A50004A8C67 /* UITextField+Extension.swift in Sources */,
+				951EFB87216C6AB0004A8C67 /* GradientLayer.swift in Sources */,
+				951EFB5E216C6963004A8C67 /* ColorImageView.swift in Sources */,
 				951EFB3B216C622D004A8C67 /* AlertService.swift in Sources */,
 				951EFA90216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */,
+				951EFBD6216C6C71004A8C67 /* BorderTextField.swift in Sources */,
+				951EFB79216C69E7004A8C67 /* ShadowButton.swift in Sources */,
 				951EFA95216C4DBE004A8C67 /* LoginAPI.swift in Sources */,
+				951EFB97216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */,
 				951EFB30216C6158004A8C67 /* SharedData.swift in Sources */,
 				951EFB41216C622D004A8C67 /* NotificationService.swift in Sources */,
 				951EFB54216C667D004A8C67 /* BaseVC.swift in Sources */,
 				951EFA77216C45F9004A8C67 /* APIConstants.swift in Sources */,
+				951EFB7C216C69E7004A8C67 /* GradientButton.swift in Sources */,
 				951EFB13216C5B9C004A8C67 /* AttributeString+Extension.swift in Sources */,
 				951EFAD6216C59EC004A8C67 /* Date+Extension.swift in Sources */,
+				951EFBA6216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */,
 				951EFADF216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				951EFA4F216C4583004A8C67 /* Sounds.swift in Sources */,
 				951EFB0B216C5B17004A8C67 /* UIApplication+Extension.swift in Sources */,
+				951EFBCF216C6C1D004A8C67 /* ShadowView.swift in Sources */,
 				951EFA58216C45D6004A8C67 /* NetworkConnectivity.swift in Sources */,
 				951EFB3E216C622D004A8C67 /* SystemBoots.swift in Sources */,
 				951EFAAE216C5272004A8C67 /* TextPicker.swift in Sources */,
 				951EFB21216C5F73004A8C67 /* ErrorMessages.swift in Sources */,
+				951EFB67216C697E004A8C67 /* BaseTextView.swift in Sources */,
+				951EFB9A216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */,
 				951EFB1B216C5F43004A8C67 /* Utils.swift in Sources */,
 				951EFA74216C45F9004A8C67 /* APIServiceResponse.swift in Sources */,
 				951EFB08216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
+				951EFBDF216C6F83004A8C67 /* DatePicker.swift in Sources */,
 				951EFB24216C5F73004A8C67 /* AppConstants.swift in Sources */,
 				951EFB28216C6062004A8C67 /* EnumType.swift in Sources */,
+				951EFB6C216C69B3004A8C67 /* InsetTextField.swift in Sources */,
 				951EFA6C216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */,
 				951EFAC1216C5928004A8C67 /* PickerViewer.swift in Sources */,
 				951EFA7D216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */,
@@ -1063,6 +1342,7 @@
 				951EFAF9216C5A50004A8C67 /* UIImage+Extension.swift in Sources */,
 				951EFA4B216C4564004A8C67 /* Font.swift in Sources */,
 				951EFAC7216C5928004A8C67 /* AutoLayoutHelper.swift in Sources */,
+				951EFBC9216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
 				951EFA80216C45F9004A8C67 /* APIServiceRequest.swift in Sources */,
 				951EFADC216C59EC004A8C67 /* UIFont+Extension.swift in Sources */,
 				951EFB57216C667D004A8C67 /* BaseNavigationVC.swift in Sources */,
@@ -1070,9 +1350,15 @@
 				951EFABE216C5928004A8C67 /* RetryHandler.swift in Sources */,
 				951EFA03216C3964004A8C67 /* AppDelegate.swift in Sources */,
 				951EFAF0216C5A50004A8C67 /* UITextView+Extension.swift in Sources */,
+				951EFBCC216C6C1D004A8C67 /* TapActionView.swift in Sources */,
+				951EFBBD216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */,
+				951EFBAF216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
+				951EFBB5216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */,
+				951EFBA9216C6ACD004A8C67 /* CTBaseCell.swift in Sources */,
 				951EFA99216C4DCD004A8C67 /* AuthRequest.swift in Sources */,
 				951EFA5D216C45DB004A8C67 /* OperationTask.swift in Sources */,
 				951EFA88216C4627004A8C67 /* NetworkIndicator.swift in Sources */,
+				951EFBB8216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */,
 				951EFACA216C5928004A8C67 /* IndicatorViewer.swift in Sources */,
 				951EFB10216C5B9C004A8C67 /* String+Extension.swift in Sources */,
 				951EFB4B216C6659004A8C67 /* LoadingVC.swift in Sources */,
@@ -1091,33 +1377,51 @@
 				951EFB00216C5A50004A8C67 /* UIScrollView+Extension.swift in Sources */,
 				951EFA66216C45E1004A8C67 /* DispatcherProtocol.swift in Sources */,
 				951EFB18216C5F12004A8C67 /* Int+Extension.swift in Sources */,
+				951EFBC7216C6C1D004A8C67 /* RoundedView.swift in Sources */,
 				951EFA85216C4622004A8C67 /* ErrorExtension.swift in Sources */,
 				951EFB45216C622D004A8C67 /* DataService.swift in Sources */,
+				951EFB72216C69CF004A8C67 /* InsetLabel.swift in Sources */,
 				951EFB06216C5B17004A8C67 /* UIViewController+Extension.swift in Sources */,
+				951EFB65216C697E004A8C67 /* InsetTextView.swift in Sources */,
+				951EFBD3216C6C1D004A8C67 /* GradientView.swift in Sources */,
 				951EFAA9216C5272004A8C67 /* DateTimePicker.swift in Sources */,
+				951EFB83216C69E7004A8C67 /* CheckBox.swift in Sources */,
+				951EFBDB216C6CA5004A8C67 /* CustomInApp.swift in Sources */,
 				951EFA7B216C45F9004A8C67 /* APIServiceError.swift in Sources */,
 				951EFAFD216C5A50004A8C67 /* UITextField+Extension.swift in Sources */,
+				951EFB88216C6AB0004A8C67 /* GradientLayer.swift in Sources */,
+				951EFB5F216C6963004A8C67 /* ColorImageView.swift in Sources */,
 				951EFB3C216C622D004A8C67 /* AlertService.swift in Sources */,
 				951EFA91216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */,
+				951EFBD7216C6C71004A8C67 /* BorderTextField.swift in Sources */,
+				951EFB7A216C69E7004A8C67 /* ShadowButton.swift in Sources */,
 				951EFA96216C4DBE004A8C67 /* LoginAPI.swift in Sources */,
+				951EFB98216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */,
 				951EFB31216C6158004A8C67 /* SharedData.swift in Sources */,
 				951EFB42216C622D004A8C67 /* NotificationService.swift in Sources */,
 				951EFB55216C667D004A8C67 /* BaseVC.swift in Sources */,
 				951EFA78216C45F9004A8C67 /* APIConstants.swift in Sources */,
+				951EFB7D216C69E7004A8C67 /* GradientButton.swift in Sources */,
 				951EFB14216C5B9C004A8C67 /* AttributeString+Extension.swift in Sources */,
 				951EFAD7216C59EC004A8C67 /* Date+Extension.swift in Sources */,
+				951EFBA7216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */,
 				951EFAE0216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				951EFA50216C4583004A8C67 /* Sounds.swift in Sources */,
 				951EFB0C216C5B17004A8C67 /* UIApplication+Extension.swift in Sources */,
+				951EFBD0216C6C1D004A8C67 /* ShadowView.swift in Sources */,
 				951EFA59216C45D6004A8C67 /* NetworkConnectivity.swift in Sources */,
 				951EFB3F216C622D004A8C67 /* SystemBoots.swift in Sources */,
 				951EFAAF216C5272004A8C67 /* TextPicker.swift in Sources */,
 				951EFB22216C5F73004A8C67 /* ErrorMessages.swift in Sources */,
+				951EFB68216C697E004A8C67 /* BaseTextView.swift in Sources */,
+				951EFB9B216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */,
 				951EFB1C216C5F43004A8C67 /* Utils.swift in Sources */,
 				951EFA75216C45F9004A8C67 /* APIServiceResponse.swift in Sources */,
 				951EFB09216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
+				951EFBE0216C6F83004A8C67 /* DatePicker.swift in Sources */,
 				951EFB25216C5F73004A8C67 /* AppConstants.swift in Sources */,
 				951EFB29216C6062004A8C67 /* EnumType.swift in Sources */,
+				951EFB6D216C69B3004A8C67 /* InsetTextField.swift in Sources */,
 				951EFA6D216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */,
 				951EFAC2216C5928004A8C67 /* PickerViewer.swift in Sources */,
 				951EFA7E216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */,
@@ -1127,6 +1431,7 @@
 				951EFAFA216C5A50004A8C67 /* UIImage+Extension.swift in Sources */,
 				951EFA4C216C4564004A8C67 /* Font.swift in Sources */,
 				951EFAC8216C5928004A8C67 /* AutoLayoutHelper.swift in Sources */,
+				951EFBCA216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
 				951EFA81216C45F9004A8C67 /* APIServiceRequest.swift in Sources */,
 				951EFADD216C59EC004A8C67 /* UIFont+Extension.swift in Sources */,
 				951EFB58216C667D004A8C67 /* BaseNavigationVC.swift in Sources */,
@@ -1134,9 +1439,15 @@
 				951EFABF216C5928004A8C67 /* RetryHandler.swift in Sources */,
 				951EFA16216C39AA004A8C67 /* AppDelegate.swift in Sources */,
 				951EFAF1216C5A50004A8C67 /* UITextView+Extension.swift in Sources */,
+				951EFBCD216C6C1D004A8C67 /* TapActionView.swift in Sources */,
+				951EFBBE216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */,
+				951EFBB0216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
+				951EFBB6216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */,
+				951EFBAA216C6ACD004A8C67 /* CTBaseCell.swift in Sources */,
 				951EFA9A216C4DCD004A8C67 /* AuthRequest.swift in Sources */,
 				951EFA5E216C45DB004A8C67 /* OperationTask.swift in Sources */,
 				951EFA89216C4627004A8C67 /* NetworkIndicator.swift in Sources */,
+				951EFBB9216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */,
 				951EFACB216C5928004A8C67 /* IndicatorViewer.swift in Sources */,
 				951EFB11216C5B9C004A8C67 /* String+Extension.swift in Sources */,
 				951EFB4C216C6659004A8C67 /* LoadingVC.swift in Sources */,
@@ -1155,33 +1466,51 @@
 				951EFB01216C5A50004A8C67 /* UIScrollView+Extension.swift in Sources */,
 				951EFA67216C45E1004A8C67 /* DispatcherProtocol.swift in Sources */,
 				951EFB19216C5F12004A8C67 /* Int+Extension.swift in Sources */,
+				951EFBC8216C6C1D004A8C67 /* RoundedView.swift in Sources */,
 				951EFA86216C4622004A8C67 /* ErrorExtension.swift in Sources */,
 				951EFB46216C622D004A8C67 /* DataService.swift in Sources */,
+				951EFB73216C69CF004A8C67 /* InsetLabel.swift in Sources */,
 				951EFB07216C5B17004A8C67 /* UIViewController+Extension.swift in Sources */,
+				951EFB66216C697E004A8C67 /* InsetTextView.swift in Sources */,
+				951EFBD4216C6C1D004A8C67 /* GradientView.swift in Sources */,
 				951EFAAA216C5272004A8C67 /* DateTimePicker.swift in Sources */,
+				951EFB84216C69E7004A8C67 /* CheckBox.swift in Sources */,
+				951EFBDC216C6CA5004A8C67 /* CustomInApp.swift in Sources */,
 				951EFA7C216C45F9004A8C67 /* APIServiceError.swift in Sources */,
 				951EFAFE216C5A50004A8C67 /* UITextField+Extension.swift in Sources */,
+				951EFB89216C6AB0004A8C67 /* GradientLayer.swift in Sources */,
+				951EFB60216C6963004A8C67 /* ColorImageView.swift in Sources */,
 				951EFB3D216C622D004A8C67 /* AlertService.swift in Sources */,
 				951EFA92216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */,
+				951EFBD8216C6C71004A8C67 /* BorderTextField.swift in Sources */,
+				951EFB7B216C69E7004A8C67 /* ShadowButton.swift in Sources */,
 				951EFA97216C4DBE004A8C67 /* LoginAPI.swift in Sources */,
+				951EFB99216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */,
 				951EFB32216C6158004A8C67 /* SharedData.swift in Sources */,
 				951EFB43216C622D004A8C67 /* NotificationService.swift in Sources */,
 				951EFB56216C667D004A8C67 /* BaseVC.swift in Sources */,
 				951EFA79216C45F9004A8C67 /* APIConstants.swift in Sources */,
+				951EFB7E216C69E7004A8C67 /* GradientButton.swift in Sources */,
 				951EFB15216C5B9C004A8C67 /* AttributeString+Extension.swift in Sources */,
 				951EFAD8216C59EC004A8C67 /* Date+Extension.swift in Sources */,
+				951EFBA8216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */,
 				951EFAE1216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				951EFA51216C4583004A8C67 /* Sounds.swift in Sources */,
 				951EFB0D216C5B17004A8C67 /* UIApplication+Extension.swift in Sources */,
+				951EFBD1216C6C1D004A8C67 /* ShadowView.swift in Sources */,
 				951EFA5A216C45D6004A8C67 /* NetworkConnectivity.swift in Sources */,
 				951EFB40216C622D004A8C67 /* SystemBoots.swift in Sources */,
 				951EFAB0216C5272004A8C67 /* TextPicker.swift in Sources */,
 				951EFB23216C5F73004A8C67 /* ErrorMessages.swift in Sources */,
+				951EFB69216C697E004A8C67 /* BaseTextView.swift in Sources */,
+				951EFB9C216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */,
 				951EFB1D216C5F43004A8C67 /* Utils.swift in Sources */,
 				951EFA76216C45F9004A8C67 /* APIServiceResponse.swift in Sources */,
 				951EFB0A216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
+				951EFBE1216C6F83004A8C67 /* DatePicker.swift in Sources */,
 				951EFB26216C5F73004A8C67 /* AppConstants.swift in Sources */,
 				951EFB2A216C6062004A8C67 /* EnumType.swift in Sources */,
+				951EFB6E216C69B3004A8C67 /* InsetTextField.swift in Sources */,
 				951EFA6E216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */,
 				951EFAC3216C5928004A8C67 /* PickerViewer.swift in Sources */,
 				951EFA7F216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */,
@@ -1191,6 +1520,7 @@
 				951EFAFB216C5A50004A8C67 /* UIImage+Extension.swift in Sources */,
 				951EFA4D216C4564004A8C67 /* Font.swift in Sources */,
 				951EFAC9216C5928004A8C67 /* AutoLayoutHelper.swift in Sources */,
+				951EFBCB216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
 				951EFA82216C45F9004A8C67 /* APIServiceRequest.swift in Sources */,
 				951EFADE216C59EC004A8C67 /* UIFont+Extension.swift in Sources */,
 				951EFB59216C667D004A8C67 /* BaseNavigationVC.swift in Sources */,
@@ -1198,9 +1528,15 @@
 				951EFAC0216C5928004A8C67 /* RetryHandler.swift in Sources */,
 				951EFA22216C39B1004A8C67 /* AppDelegate.swift in Sources */,
 				951EFAF2216C5A50004A8C67 /* UITextView+Extension.swift in Sources */,
+				951EFBCE216C6C1D004A8C67 /* TapActionView.swift in Sources */,
+				951EFBBF216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */,
+				951EFBB1216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
+				951EFBB7216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */,
+				951EFBAB216C6ACD004A8C67 /* CTBaseCell.swift in Sources */,
 				951EFA9B216C4DCD004A8C67 /* AuthRequest.swift in Sources */,
 				951EFA5F216C45DB004A8C67 /* OperationTask.swift in Sources */,
 				951EFA8A216C4627004A8C67 /* NetworkIndicator.swift in Sources */,
+				951EFBBA216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */,
 				951EFACC216C5928004A8C67 /* IndicatorViewer.swift in Sources */,
 				951EFB12216C5B9C004A8C67 /* String+Extension.swift in Sources */,
 				951EFB4D216C6659004A8C67 /* LoadingVC.swift in Sources */,
