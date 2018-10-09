@@ -18,6 +18,16 @@ public enum DataType {
     case data
 }
 
+// Request protocol
+public protocol Request {
+    var apiIdentifier: String { get }
+    var path: String { get }
+    var method: HTTPMethod { get }
+    var parameters: RequestParams { get }
+    var headers: HTTPHeaders? { get }
+    var dataType: DataType { get }
+}
+
 // Define the parameters of a request
 // - body: part of the body stream
 // - url: as url parameters
@@ -33,12 +43,10 @@ public enum NetworkErrors: Error {
     case noData // No data found
 }
 
-// Request protocol
-public protocol Request {
-    var apiIdentifier: String { get }
-    var path: String { get }
-    var method: HTTPMethod { get }
-    var parameters: RequestParams { get }
-    var headers: HTTPHeaders? { get }
-    var dataType: DataType { get }
+// TODO: - Define metal codes when request APIs (according to project)
+enum ApiErrorCode: String {
+    case e0001 = "E0001"
+    case e0002 = "E0002"
+    case e0003 = "E0003"
+    var value: String { return rawValue }
 }

@@ -7,6 +7,8 @@ def shared_pods
   pod 'HydraAsync'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'Kingfisher', '~> 4.0'
+  pod 'CryptoSwift'
 end
 
 target 'AppStore' do

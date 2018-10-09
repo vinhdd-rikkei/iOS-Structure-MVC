@@ -1,5 +1,5 @@
 //
-//  APIServiceError.swift
+//  ErrorExtension.swift
 //  iOS Structure MVC
 //
 //  Created by vinhdd on 10/9/18.
