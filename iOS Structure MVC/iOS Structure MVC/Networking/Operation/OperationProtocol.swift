@@ -17,5 +17,5 @@ protocol OperationProtocol {
     var code: String { get }
     
     // Request
-    var request: Request? { get }
+    var request: Request? { set get }
 }

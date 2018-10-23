@@ -30,13 +30,13 @@ public enum Response {
         switch request.dataType {
         case .data:
             guard let responseData = response.data else {
-                self = .error(statusCode, NetworkErrors.noData)
+                self = .error(statusCode, RequestErrorType.noData)
                 return
             }
             self = .data(responseData)
         case .json:
             guard let jsonData = response.result.value else {
-                self = .error(statusCode, NetworkErrors.noData)
+                self = .error(statusCode, RequestErrorType.noData)
                 return
             }
             let json: JSON = JSON(jsonData)
@@ -45,14 +45,11 @@ public enum Response {
     }
 }
 
-// Model repsonse protocol based on JSON data (View Controller's layers are able to view this protocol as response data)
+// Model repsonse protocol based on JSON data
 public protocol ModelResponseProtocol {
-    
-    // Request of this response
-    var request: Request { set get }
-    
+
     // Set json as input variable
-    init(json: JSON, request: Request)
+    init(json: JSON)
     
     // Action
     func printInfo()

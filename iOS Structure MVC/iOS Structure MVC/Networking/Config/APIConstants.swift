@@ -13,9 +13,9 @@ import Alamofire
 class APIConstants {
     static var baseUrl: String {
         #if DEVELOP || STAGING
-        return ""
+        return "https://api.stackexchange.com/2.2"
         #else
-        return ""
+        return "https://api.stackexchange.com/2.2"
         #endif
     }
     
@@ -26,15 +26,4 @@ class APIConstants {
         return [:]
         #endif
     }
-}
-
-// Describe common format for api response's content
-extension APIConstants {
-    static let dateFormat = "yyyy/MM/dd"
-    static let dateTimeFormat = "yyyy/MM/dd HH:mm:ss"
-    static let dateTimeWithoutSecondFormat = "yyyy/MM/dd HH:mm"
-    static let birthdayDateFormat = "yyyy/MM"
-    static let timeFormat = "HH:mm"
-    static let timeSecondFormat = "hh:mm:ss.SSS"
-    static let dateHourTimeFormat = "yyyy/MM/dd HH:mm:ss"
 }

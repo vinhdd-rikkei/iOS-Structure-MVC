@@ -27,11 +27,23 @@ class LoadingVC: BaseVC {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupView()
+        requestApi()
     }
     
     // MARK: - Setup
     private func setupView() {
-        
+        // Do nothing
+    }
+    
+    private func requestApi() {
+        let request = AnswerRequest.getAnswerList(order: "desc",
+                                                  sort: "activity",
+                                                  site: "stackoverflow")
+        AnswerListAPI(request: request).execute(success: { response in
+            print("Got list: \(response.answerList.count) elements")
+        }, error: { error in
+            print("Got error: \(error.message ?? "-")")
+        })
     }
     
     // MARK: - Data management

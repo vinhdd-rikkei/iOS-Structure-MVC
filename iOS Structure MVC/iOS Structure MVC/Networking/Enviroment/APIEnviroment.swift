@@ -9,16 +9,16 @@
 import UIKit
 import Alamofire
 
-public class NetworkEnviroment {
+public class APIEnviroment {
     
     // MARK: - Local variables
-    class var `default`: NetworkEnviroment {
-        return NetworkEnviroment(name: ProcessInfo.processInfo.environment["targetName"] ?? "",
+    class var `default`: APIEnviroment {
+        return APIEnviroment(name: ProcessInfo.processInfo.environment["targetName"] ?? "",
                                  host: APIConstants.baseUrl,
                                  headers: APIConstants.httpHeaders,
                                  encoding: URLEncoding.default,
                                  retryTime: 1,
-                                 requestTimeout: 10)
+                                 timeout: 10)
     }
 
     // Name of the enviroment (default is name of current scheme)
@@ -37,54 +37,54 @@ public class NetworkEnviroment {
     public var retryTime: Int = 1
     
     // Request timeout for request
-    public var requestTimeout: TimeInterval = 10
+    public var timeout: TimeInterval = 10
     
     // MARK: - Init
     public init() { }
     
-    public init(name: String, host: String, headers: HTTPHeaders, encoding: ParameterEncoding, retryTime: Int, requestTimeout: TimeInterval) {
+    public init(name: String, host: String, headers: HTTPHeaders, encoding: ParameterEncoding, retryTime: Int, timeout: TimeInterval) {
         self.name = name
         self.host = host
         self.headers = headers
         self.encoding = encoding
         self.retryTime = retryTime
-        self.requestTimeout = requestTimeout
+        self.timeout = timeout
     }
     
     // MARK: - Builder
     @discardableResult
-    public func set(name: String) -> NetworkEnviroment {
+    public func set(name: String) -> APIEnviroment {
         self.name = name
         return self
     }
     
     @discardableResult
-    public func set(host: String) -> NetworkEnviroment {
+    public func set(host: String) -> APIEnviroment {
         self.host = host
         return self
     }
     
     @discardableResult
-    public func set(headers: HTTPHeaders) -> NetworkEnviroment {
+    public func set(headers: HTTPHeaders) -> APIEnviroment {
         self.headers = headers
         return self
     }
     
     @discardableResult
-    public func set(encoding: URLEncoding) -> NetworkEnviroment {
+    public func set(encoding: URLEncoding) -> APIEnviroment {
         self.encoding = encoding
         return self
     }
     
     @discardableResult
-    public func set(retryTime: Int) -> NetworkEnviroment {
+    public func set(retryTime: Int) -> APIEnviroment {
         self.retryTime = retryTime
         return self
     }
     
     @discardableResult
-    public func set(requestTimeout: TimeInterval) -> NetworkEnviroment {
-        self.requestTimeout = requestTimeout
+    public func set(timeout: TimeInterval) -> APIEnviroment {
+        self.timeout = timeout
         return self
     }
 }

@@ -36,17 +36,12 @@ public enum RequestParams {
     case url(_: Parameters?)
 }
 
-// Define a list of error cases of response data
-public enum NetworkErrors: Error {
+// Define a list of error cases
+public enum RequestErrorType: Error {
     case badInput // Parameters in wrong format,...
     case badOutput // Get incorrect response data,...
     case noData // No data found
-}
-
-// TODO: - Define metal codes when request APIs (according to project)
-enum ApiErrorCode: String {
-    case e0001 = "E0001"
-    case e0002 = "E0002"
-    case e0003 = "E0003"
-    var value: String { return rawValue }
+    case offline // Network is not connected
+    case timeout // Request timeout
+    case unknown // Unknown error
 }

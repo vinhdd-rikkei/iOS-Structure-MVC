@@ -9,44 +9,38 @@
 import UIKit
 import Alamofire
 
-public enum AuthRequest: Request {
-    case login(id: String, pass: String)
-    case logout()
+public enum AnswerRequest: Request {
+    case getAnswerList(order: String, sort: String, site: String)
     
+    // This variable is used for debugging (print in console)
     public var apiIdentifier: String {
         switch self {
-        case .login:
-            return "API0001 ⬩ Login"
-        case .logout:
-            return "API0002 ⬩ Logout"
+        case .getAnswerList:
+            return "API0001 ⬩ Get answer"
         }
     }
     
     public var path: String {
         switch self {
-        case .login:
-            return "user/login"
-        case .logout:
-            return "user/logout"
+        case .getAnswerList:
+            return "answers"
         }
     }
     
     public var method: HTTPMethod {
         switch self {
-        case .login, .logout:
-            return .post
+        case .getAnswerList:
+            return .get
         }
     }
     
     public var parameters: RequestParams {
         var baseParams: Parameters = [:]
         switch self {
-        case .login(let id, let pass):
-            baseParams["login_id"] = id
-            baseParams["password"] = pass
-            
-        case .logout:
-            break
+        case .getAnswerList(let order, let sort, let site):
+            baseParams["order"] = order
+            baseParams["sort"] = sort
+            baseParams["site"] = site
         }
         return .body(baseParams)
     }

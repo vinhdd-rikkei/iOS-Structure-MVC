@@ -11,13 +11,11 @@ import SwiftyJSON
 
 class BaseAPIResponse: ModelResponseProtocol {
     
-    var request: Request
-    
-    required init(json: JSON, request: Request) {
-        self.request = request
+    required init(json: JSON) {
+        // Do nothing
     }
     
     func printInfo() {
-        print("-> [\(request.apiIdentifier)] Requested successfully !!")
+        print("-> Requested successfully !!")
     }
 }

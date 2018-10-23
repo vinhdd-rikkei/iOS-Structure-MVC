@@ -18,7 +18,7 @@ public class ComponentRequest {
     var parameters: Parameters?
     var encoding: ParameterEncoding?
     
-    init(request: Request, enviroment: NetworkEnviroment) {
+    init(request: Request, enviroment: APIEnviroment) {
         // Request url
         fullUrl = enviroment.host + "/" + request.path
         
@@ -65,9 +65,9 @@ public class ComponentRequest {
 class ConvertibleRequest: URLRequestConvertible {
    
     private var request: Request
-    private var enviroment: NetworkEnviroment
+    private var enviroment: APIEnviroment
     
-    init(request: Request, enviroment: NetworkEnviroment) {
+    init(request: Request, enviroment: APIEnviroment) {
         self.request = request
         self.enviroment = enviroment
     }
@@ -81,7 +81,7 @@ class ConvertibleRequest: URLRequestConvertible {
         urlRequest.httpMethod = request.method.rawValue
         
         // Timeout interval
-        urlRequest.timeoutInterval = enviroment.requestTimeout
+        urlRequest.timeoutInterval = enviroment.timeout
         
         // Http headers
         enviroment.headers.forEach {

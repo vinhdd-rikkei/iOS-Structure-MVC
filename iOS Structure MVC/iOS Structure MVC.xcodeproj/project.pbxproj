@@ -42,24 +42,24 @@
 		951EFA68216C45E1004A8C67 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA64216C45E1004A8C67 /* NetworkDispatcher.swift */; };
 		951EFA69216C45E1004A8C67 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA64216C45E1004A8C67 /* NetworkDispatcher.swift */; };
 		951EFA6A216C45E1004A8C67 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA64216C45E1004A8C67 /* NetworkDispatcher.swift */; };
-		951EFA6C216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6B216C45E7004A8C67 /* NetworkEnviroment.swift */; };
-		951EFA6D216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6B216C45E7004A8C67 /* NetworkEnviroment.swift */; };
-		951EFA6E216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6B216C45E7004A8C67 /* NetworkEnviroment.swift */; };
-		951EFA74216C45F9004A8C67 /* APIServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6F216C45F8004A8C67 /* APIServiceResponse.swift */; };
-		951EFA75216C45F9004A8C67 /* APIServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6F216C45F8004A8C67 /* APIServiceResponse.swift */; };
-		951EFA76216C45F9004A8C67 /* APIServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6F216C45F8004A8C67 /* APIServiceResponse.swift */; };
+		951EFA6C216C45E7004A8C67 /* APIEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6B216C45E7004A8C67 /* APIEnviroment.swift */; };
+		951EFA6D216C45E7004A8C67 /* APIEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6B216C45E7004A8C67 /* APIEnviroment.swift */; };
+		951EFA6E216C45E7004A8C67 /* APIEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6B216C45E7004A8C67 /* APIEnviroment.swift */; };
+		951EFA74216C45F9004A8C67 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6F216C45F8004A8C67 /* APIResponse.swift */; };
+		951EFA75216C45F9004A8C67 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6F216C45F8004A8C67 /* APIResponse.swift */; };
+		951EFA76216C45F9004A8C67 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA6F216C45F8004A8C67 /* APIResponse.swift */; };
 		951EFA77216C45F9004A8C67 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA70216C45F8004A8C67 /* APIConstants.swift */; };
 		951EFA78216C45F9004A8C67 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA70216C45F8004A8C67 /* APIConstants.swift */; };
 		951EFA79216C45F9004A8C67 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA70216C45F8004A8C67 /* APIConstants.swift */; };
-		951EFA7A216C45F9004A8C67 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA71216C45F8004A8C67 /* APIServiceError.swift */; };
-		951EFA7B216C45F9004A8C67 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA71216C45F8004A8C67 /* APIServiceError.swift */; };
-		951EFA7C216C45F9004A8C67 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA71216C45F8004A8C67 /* APIServiceError.swift */; };
-		951EFA7D216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA72216C45F9004A8C67 /* APIServiceGeneral.swift */; };
-		951EFA7E216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA72216C45F9004A8C67 /* APIServiceGeneral.swift */; };
-		951EFA7F216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA72216C45F9004A8C67 /* APIServiceGeneral.swift */; };
-		951EFA80216C45F9004A8C67 /* APIServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA73216C45F9004A8C67 /* APIServiceRequest.swift */; };
-		951EFA81216C45F9004A8C67 /* APIServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA73216C45F9004A8C67 /* APIServiceRequest.swift */; };
-		951EFA82216C45F9004A8C67 /* APIServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA73216C45F9004A8C67 /* APIServiceRequest.swift */; };
+		951EFA7A216C45F9004A8C67 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA71216C45F8004A8C67 /* APIError.swift */; };
+		951EFA7B216C45F9004A8C67 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA71216C45F8004A8C67 /* APIError.swift */; };
+		951EFA7C216C45F9004A8C67 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA71216C45F8004A8C67 /* APIError.swift */; };
+		951EFA7D216C45F9004A8C67 /* APIGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA72216C45F9004A8C67 /* APIGeneral.swift */; };
+		951EFA7E216C45F9004A8C67 /* APIGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA72216C45F9004A8C67 /* APIGeneral.swift */; };
+		951EFA7F216C45F9004A8C67 /* APIGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA72216C45F9004A8C67 /* APIGeneral.swift */; };
+		951EFA80216C45F9004A8C67 /* PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA73216C45F9004A8C67 /* PrepareRequest.swift */; };
+		951EFA81216C45F9004A8C67 /* PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA73216C45F9004A8C67 /* PrepareRequest.swift */; };
+		951EFA82216C45F9004A8C67 /* PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA73216C45F9004A8C67 /* PrepareRequest.swift */; };
 		951EFA84216C4622004A8C67 /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA83216C4621004A8C67 /* ErrorExtension.swift */; };
 		951EFA85216C4622004A8C67 /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA83216C4621004A8C67 /* ErrorExtension.swift */; };
 		951EFA86216C4622004A8C67 /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA83216C4621004A8C67 /* ErrorExtension.swift */; };
@@ -69,12 +69,12 @@
 		951EFA90216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA8F216C4D9D004A8C67 /* BaseAPIResponse.swift */; };
 		951EFA91216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA8F216C4D9D004A8C67 /* BaseAPIResponse.swift */; };
 		951EFA92216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA8F216C4D9D004A8C67 /* BaseAPIResponse.swift */; };
-		951EFA95216C4DBE004A8C67 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA94216C4DBE004A8C67 /* LoginAPI.swift */; };
-		951EFA96216C4DBE004A8C67 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA94216C4DBE004A8C67 /* LoginAPI.swift */; };
-		951EFA97216C4DBE004A8C67 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA94216C4DBE004A8C67 /* LoginAPI.swift */; };
-		951EFA99216C4DCD004A8C67 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA98216C4DCD004A8C67 /* AuthRequest.swift */; };
-		951EFA9A216C4DCD004A8C67 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA98216C4DCD004A8C67 /* AuthRequest.swift */; };
-		951EFA9B216C4DCD004A8C67 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA98216C4DCD004A8C67 /* AuthRequest.swift */; };
+		951EFA95216C4DBE004A8C67 /* AnswerListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA94216C4DBE004A8C67 /* AnswerListAPI.swift */; };
+		951EFA96216C4DBE004A8C67 /* AnswerListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA94216C4DBE004A8C67 /* AnswerListAPI.swift */; };
+		951EFA97216C4DBE004A8C67 /* AnswerListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA94216C4DBE004A8C67 /* AnswerListAPI.swift */; };
+		951EFA99216C4DCD004A8C67 /* AnswerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA98216C4DCD004A8C67 /* AnswerRequest.swift */; };
+		951EFA9A216C4DCD004A8C67 /* AnswerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA98216C4DCD004A8C67 /* AnswerRequest.swift */; };
+		951EFA9B216C4DCD004A8C67 /* AnswerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA98216C4DCD004A8C67 /* AnswerRequest.swift */; };
 		951EFAA2216C5272004A8C67 /* BasePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA9D216C5271004A8C67 /* BasePicker.swift */; };
 		951EFAA3216C5272004A8C67 /* BasePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA9D216C5271004A8C67 /* BasePicker.swift */; };
 		951EFAA4216C5272004A8C67 /* BasePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EFA9D216C5271004A8C67 /* BasePicker.swift */; };
@@ -292,6 +292,15 @@
 		951EFBE3216C6F83004A8C67 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFBDE216C6F83004A8C67 /* DatePicker.xib */; };
 		951EFBE4216C6F83004A8C67 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951EFBDE216C6F83004A8C67 /* DatePicker.xib */; };
 		C2174E4A148D02288F75E308 /* Pods_AppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EA460FF6FD3BA24DE7D361 /* Pods_AppStore.framework */; };
+		E0732590217F85E7006693D5 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073258F217F85E7006693D5 /* Answer.swift */; };
+		E0732591217F85E7006693D5 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073258F217F85E7006693D5 /* Answer.swift */; };
+		E0732592217F85E7006693D5 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073258F217F85E7006693D5 /* Answer.swift */; };
+		E0732594217F85F8006693D5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0732593217F85F8006693D5 /* Owner.swift */; };
+		E0732595217F85F8006693D5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0732593217F85F8006693D5 /* Owner.swift */; };
+		E0732596217F85F8006693D5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0732593217F85F8006693D5 /* Owner.swift */; };
+		E073259D217F9CE5006693D5 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073259C217F9CE5006693D5 /* APIs.swift */; };
+		E073259E217F9CE5006693D5 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073259C217F9CE5006693D5 /* APIs.swift */; };
+		E073259F217F9CE5006693D5 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073259C217F9CE5006693D5 /* APIs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -316,17 +325,17 @@
 		951EFA5C216C45DB004A8C67 /* OperationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationProtocol.swift; sourceTree = "<group>"; };
 		951EFA63216C45E1004A8C67 /* DispatcherProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatcherProtocol.swift; sourceTree = "<group>"; };
 		951EFA64216C45E1004A8C67 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
-		951EFA6B216C45E7004A8C67 /* NetworkEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnviroment.swift; sourceTree = "<group>"; };
-		951EFA6F216C45F8004A8C67 /* APIServiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceResponse.swift; sourceTree = "<group>"; };
+		951EFA6B216C45E7004A8C67 /* APIEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnviroment.swift; sourceTree = "<group>"; };
+		951EFA6F216C45F8004A8C67 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		951EFA70216C45F8004A8C67 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
-		951EFA71216C45F8004A8C67 /* APIServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
-		951EFA72216C45F9004A8C67 /* APIServiceGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceGeneral.swift; sourceTree = "<group>"; };
-		951EFA73216C45F9004A8C67 /* APIServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceRequest.swift; sourceTree = "<group>"; };
+		951EFA71216C45F8004A8C67 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		951EFA72216C45F9004A8C67 /* APIGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIGeneral.swift; sourceTree = "<group>"; };
+		951EFA73216C45F9004A8C67 /* PrepareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareRequest.swift; sourceTree = "<group>"; };
 		951EFA83216C4621004A8C67 /* ErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
 		951EFA87216C4626004A8C67 /* NetworkIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkIndicator.swift; sourceTree = "<group>"; };
 		951EFA8F216C4D9D004A8C67 /* BaseAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIResponse.swift; sourceTree = "<group>"; };
-		951EFA94216C4DBE004A8C67 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
-		951EFA98216C4DCD004A8C67 /* AuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		951EFA94216C4DBE004A8C67 /* AnswerListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerListAPI.swift; sourceTree = "<group>"; };
+		951EFA98216C4DCD004A8C67 /* AnswerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRequest.swift; sourceTree = "<group>"; };
 		951EFA9D216C5271004A8C67 /* BasePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePicker.swift; sourceTree = "<group>"; };
 		951EFA9E216C5271004A8C67 /* TextPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextPicker.xib; sourceTree = "<group>"; };
 		951EFA9F216C5271004A8C67 /* DateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimePicker.swift; sourceTree = "<group>"; };
@@ -401,6 +410,9 @@
 		951EFBDE216C6F83004A8C67 /* DatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
 		AA113589E48F7B82D6A78DBA /* Pods_Develop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Develop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58CD037A5D7DA141F3522F1 /* Pods-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Staging/Pods-Staging.release.xcconfig"; sourceTree = "<group>"; };
+		E073258F217F85E7006693D5 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		E0732593217F85F8006693D5 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		E073259C217F9CE5006693D5 /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
 		E9BC75B769C5773AA65EE1CF /* Pods_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF03BF3918394084C759A0D6 /* Pods-Develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Develop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Develop/Pods-Develop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -483,11 +495,11 @@
 				951EFA33216C3BB7004A8C67 /* Service */,
 				951EFAB2216C5860004A8C67 /* Utilities */,
 				951EFAB1216C585A004A8C67 /* Vendor */,
-				951EFA32216C3BB2004A8C67 /* Models */,
 				951EFA31216C3BAB004A8C67 /* Controllers */,
 				951EFA30216C3BA7004A8C67 /* Views */,
+				E073258E217F85CA006693D5 /* Models */,
 				951EFA2F216C3BA3004A8C67 /* API */,
-				951EFA2E216C3B9E004A8C67 /* Network */,
+				951EFA2E216C3B9E004A8C67 /* Networking */,
 				951EFA2D216C3B93004A8C67 /* Resources */,
 			);
 			path = "iOS Structure MVC";
@@ -504,7 +516,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		951EFA2E216C3B9E004A8C67 /* Network */ = {
+		951EFA2E216C3B9E004A8C67 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				951EFA56216C45C6004A8C67 /* Config */,
@@ -513,15 +525,15 @@
 				951EFA53216C45B5004A8C67 /* Operation */,
 				951EFA52216C45A3004A8C67 /* Support */,
 			);
-			path = Network;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		951EFA2F216C3BA3004A8C67 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				951EFA8E216C4D96004A8C67 /* Base */,
-				951EFA8D216C4D5D004A8C67 /* List */,
+				E073259B217F9CD0006693D5 /* List */,
 				951EFA8C216C4D55004A8C67 /* Requests */,
+				951EFA8D216C4D5D004A8C67 /* Response */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -542,13 +554,6 @@
 				951EFB48216C6647004A8C67 /* Start */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		951EFA32216C3BB2004A8C67 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		951EFA33216C3BB7004A8C67 /* Service */ = {
@@ -628,6 +633,7 @@
 			children = (
 				951EFA63216C45E1004A8C67 /* DispatcherProtocol.swift */,
 				951EFA64216C45E1004A8C67 /* NetworkDispatcher.swift */,
+				951EFA73216C45F9004A8C67 /* PrepareRequest.swift */,
 			);
 			name = Dispatcher;
 			path = "Dípatcher";
@@ -636,7 +642,7 @@
 		951EFA55216C45C1004A8C67 /* Enviroment */ = {
 			isa = PBXGroup;
 			children = (
-				951EFA6B216C45E7004A8C67 /* NetworkEnviroment.swift */,
+				951EFA6B216C45E7004A8C67 /* APIEnviroment.swift */,
 			);
 			path = Enviroment;
 			sourceTree = "<group>";
@@ -645,10 +651,9 @@
 			isa = PBXGroup;
 			children = (
 				951EFA70216C45F8004A8C67 /* APIConstants.swift */,
-				951EFA71216C45F8004A8C67 /* APIServiceError.swift */,
-				951EFA72216C45F9004A8C67 /* APIServiceGeneral.swift */,
-				951EFA73216C45F9004A8C67 /* APIServiceRequest.swift */,
-				951EFA6F216C45F8004A8C67 /* APIServiceResponse.swift */,
+				951EFA72216C45F9004A8C67 /* APIGeneral.swift */,
+				951EFA6F216C45F8004A8C67 /* APIResponse.swift */,
+				951EFA71216C45F8004A8C67 /* APIError.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -656,33 +661,26 @@
 		951EFA8C216C4D55004A8C67 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				951EFA98216C4DCD004A8C67 /* AuthRequest.swift */,
+				951EFA98216C4DCD004A8C67 /* AnswerRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
 		};
-		951EFA8D216C4D5D004A8C67 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				951EFA93216C4DB5004A8C67 /* Auth */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		951EFA8E216C4D96004A8C67 /* Base */ = {
+		951EFA8D216C4D5D004A8C67 /* Response */ = {
 			isa = PBXGroup;
 			children = (
 				951EFA8F216C4D9D004A8C67 /* BaseAPIResponse.swift */,
+				951EFA93216C4DB5004A8C67 /* Answer */,
 			);
-			path = Base;
+			path = Response;
 			sourceTree = "<group>";
 		};
-		951EFA93216C4DB5004A8C67 /* Auth */ = {
+		951EFA93216C4DB5004A8C67 /* Answer */ = {
 			isa = PBXGroup;
 			children = (
-				951EFA94216C4DBE004A8C67 /* LoginAPI.swift */,
+				951EFA94216C4DBE004A8C67 /* AnswerListAPI.swift */,
 			);
-			path = Auth;
+			path = Answer;
 			sourceTree = "<group>";
 		};
 		951EFA9C216C5263004A8C67 /* Picker */ = {
@@ -970,6 +968,23 @@
 				951EFBC3216C6C1D004A8C67 /* TapActionView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E073258E217F85CA006693D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0732593217F85F8006693D5 /* Owner.swift */,
+				E073258F217F85E7006693D5 /* Answer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E073259B217F9CD0006693D5 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E073259C217F9CE5006693D5 /* APIs.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1281,6 +1296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				951EFAF6216C5A50004A8C67 /* UILabel+Extension.swift in Sources */,
+				E0732590217F85E7006693D5 /* Answer.swift in Sources */,
 				951EFAF3216C5A50004A8C67 /* UIView+Extension.swift in Sources */,
 				951EFAED216C5A50004A8C67 /* UIButton+Extension.swift in Sources */,
 				951EFAEA216C5A50004A8C67 /* UIImageView+Extension.swift in Sources */,
@@ -1298,7 +1314,7 @@
 				951EFAA8216C5272004A8C67 /* DateTimePicker.swift in Sources */,
 				951EFB82216C69E7004A8C67 /* CheckBox.swift in Sources */,
 				951EFBDA216C6CA5004A8C67 /* CustomInApp.swift in Sources */,
-				951EFA7A216C45F9004A8C67 /* APIServiceError.swift in Sources */,
+				951EFA7A216C45F9004A8C67 /* APIError.swift in Sources */,
 				951EFAFC216C5A50004A8C67 /* UITextField+Extension.swift in Sources */,
 				951EFB87216C6AB0004A8C67 /* GradientLayer.swift in Sources */,
 				951EFB5E216C6963004A8C67 /* ColorImageView.swift in Sources */,
@@ -1306,7 +1322,7 @@
 				951EFA90216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */,
 				951EFBD6216C6C71004A8C67 /* BorderTextField.swift in Sources */,
 				951EFB79216C69E7004A8C67 /* ShadowButton.swift in Sources */,
-				951EFA95216C4DBE004A8C67 /* LoginAPI.swift in Sources */,
+				951EFA95216C4DBE004A8C67 /* AnswerListAPI.swift in Sources */,
 				951EFB97216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */,
 				951EFB30216C6158004A8C67 /* SharedData.swift in Sources */,
 				951EFB41216C622D004A8C67 /* NotificationService.swift in Sources */,
@@ -1315,7 +1331,9 @@
 				951EFB7C216C69E7004A8C67 /* GradientButton.swift in Sources */,
 				951EFB13216C5B9C004A8C67 /* AttributeString+Extension.swift in Sources */,
 				951EFAD6216C59EC004A8C67 /* Date+Extension.swift in Sources */,
+				E073259D217F9CE5006693D5 /* APIs.swift in Sources */,
 				951EFBA6216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */,
+				E0732594217F85F8006693D5 /* Owner.swift in Sources */,
 				951EFADF216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				951EFA4F216C4583004A8C67 /* Sounds.swift in Sources */,
 				951EFB0B216C5B17004A8C67 /* UIApplication+Extension.swift in Sources */,
@@ -1327,15 +1345,15 @@
 				951EFB67216C697E004A8C67 /* BaseTextView.swift in Sources */,
 				951EFB9A216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */,
 				951EFB1B216C5F43004A8C67 /* Utils.swift in Sources */,
-				951EFA74216C45F9004A8C67 /* APIServiceResponse.swift in Sources */,
+				951EFA74216C45F9004A8C67 /* APIResponse.swift in Sources */,
 				951EFB08216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
 				951EFBDF216C6F83004A8C67 /* DatePicker.swift in Sources */,
 				951EFB24216C5F73004A8C67 /* AppConstants.swift in Sources */,
 				951EFB28216C6062004A8C67 /* EnumType.swift in Sources */,
 				951EFB6C216C69B3004A8C67 /* InsetTextField.swift in Sources */,
-				951EFA6C216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */,
+				951EFA6C216C45E7004A8C67 /* APIEnviroment.swift in Sources */,
 				951EFAC1216C5928004A8C67 /* PickerViewer.swift in Sources */,
-				951EFA7D216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */,
+				951EFA7D216C45F9004A8C67 /* APIGeneral.swift in Sources */,
 				951EFB38216C622D004A8C67 /* ViewControllerTask.swift in Sources */,
 				951EFA68216C45E1004A8C67 /* NetworkDispatcher.swift in Sources */,
 				951EFB2D216C6158004A8C67 /* MasterData.swift in Sources */,
@@ -1343,7 +1361,7 @@
 				951EFA4B216C4564004A8C67 /* Font.swift in Sources */,
 				951EFAC7216C5928004A8C67 /* AutoLayoutHelper.swift in Sources */,
 				951EFBC9216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
-				951EFA80216C45F9004A8C67 /* APIServiceRequest.swift in Sources */,
+				951EFA80216C45F9004A8C67 /* PrepareRequest.swift in Sources */,
 				951EFADC216C59EC004A8C67 /* UIFont+Extension.swift in Sources */,
 				951EFB57216C667D004A8C67 /* BaseNavigationVC.swift in Sources */,
 				951EFA60216C45DB004A8C67 /* OperationProtocol.swift in Sources */,
@@ -1355,7 +1373,7 @@
 				951EFBAF216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
 				951EFBB5216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */,
 				951EFBA9216C6ACD004A8C67 /* CTBaseCell.swift in Sources */,
-				951EFA99216C4DCD004A8C67 /* AuthRequest.swift in Sources */,
+				951EFA99216C4DCD004A8C67 /* AnswerRequest.swift in Sources */,
 				951EFA5D216C45DB004A8C67 /* OperationTask.swift in Sources */,
 				951EFA88216C4627004A8C67 /* NetworkIndicator.swift in Sources */,
 				951EFBB8216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */,
@@ -1370,6 +1388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				951EFAF7216C5A50004A8C67 /* UILabel+Extension.swift in Sources */,
+				E0732591217F85E7006693D5 /* Answer.swift in Sources */,
 				951EFAF4216C5A50004A8C67 /* UIView+Extension.swift in Sources */,
 				951EFAEE216C5A50004A8C67 /* UIButton+Extension.swift in Sources */,
 				951EFAEB216C5A50004A8C67 /* UIImageView+Extension.swift in Sources */,
@@ -1387,7 +1406,7 @@
 				951EFAA9216C5272004A8C67 /* DateTimePicker.swift in Sources */,
 				951EFB83216C69E7004A8C67 /* CheckBox.swift in Sources */,
 				951EFBDB216C6CA5004A8C67 /* CustomInApp.swift in Sources */,
-				951EFA7B216C45F9004A8C67 /* APIServiceError.swift in Sources */,
+				951EFA7B216C45F9004A8C67 /* APIError.swift in Sources */,
 				951EFAFD216C5A50004A8C67 /* UITextField+Extension.swift in Sources */,
 				951EFB88216C6AB0004A8C67 /* GradientLayer.swift in Sources */,
 				951EFB5F216C6963004A8C67 /* ColorImageView.swift in Sources */,
@@ -1395,7 +1414,7 @@
 				951EFA91216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */,
 				951EFBD7216C6C71004A8C67 /* BorderTextField.swift in Sources */,
 				951EFB7A216C69E7004A8C67 /* ShadowButton.swift in Sources */,
-				951EFA96216C4DBE004A8C67 /* LoginAPI.swift in Sources */,
+				951EFA96216C4DBE004A8C67 /* AnswerListAPI.swift in Sources */,
 				951EFB98216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */,
 				951EFB31216C6158004A8C67 /* SharedData.swift in Sources */,
 				951EFB42216C622D004A8C67 /* NotificationService.swift in Sources */,
@@ -1404,7 +1423,9 @@
 				951EFB7D216C69E7004A8C67 /* GradientButton.swift in Sources */,
 				951EFB14216C5B9C004A8C67 /* AttributeString+Extension.swift in Sources */,
 				951EFAD7216C59EC004A8C67 /* Date+Extension.swift in Sources */,
+				E073259E217F9CE5006693D5 /* APIs.swift in Sources */,
 				951EFBA7216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */,
+				E0732595217F85F8006693D5 /* Owner.swift in Sources */,
 				951EFAE0216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				951EFA50216C4583004A8C67 /* Sounds.swift in Sources */,
 				951EFB0C216C5B17004A8C67 /* UIApplication+Extension.swift in Sources */,
@@ -1416,15 +1437,15 @@
 				951EFB68216C697E004A8C67 /* BaseTextView.swift in Sources */,
 				951EFB9B216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */,
 				951EFB1C216C5F43004A8C67 /* Utils.swift in Sources */,
-				951EFA75216C45F9004A8C67 /* APIServiceResponse.swift in Sources */,
+				951EFA75216C45F9004A8C67 /* APIResponse.swift in Sources */,
 				951EFB09216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
 				951EFBE0216C6F83004A8C67 /* DatePicker.swift in Sources */,
 				951EFB25216C5F73004A8C67 /* AppConstants.swift in Sources */,
 				951EFB29216C6062004A8C67 /* EnumType.swift in Sources */,
 				951EFB6D216C69B3004A8C67 /* InsetTextField.swift in Sources */,
-				951EFA6D216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */,
+				951EFA6D216C45E7004A8C67 /* APIEnviroment.swift in Sources */,
 				951EFAC2216C5928004A8C67 /* PickerViewer.swift in Sources */,
-				951EFA7E216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */,
+				951EFA7E216C45F9004A8C67 /* APIGeneral.swift in Sources */,
 				951EFB39216C622D004A8C67 /* ViewControllerTask.swift in Sources */,
 				951EFA69216C45E1004A8C67 /* NetworkDispatcher.swift in Sources */,
 				951EFB2E216C6158004A8C67 /* MasterData.swift in Sources */,
@@ -1432,7 +1453,7 @@
 				951EFA4C216C4564004A8C67 /* Font.swift in Sources */,
 				951EFAC8216C5928004A8C67 /* AutoLayoutHelper.swift in Sources */,
 				951EFBCA216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
-				951EFA81216C45F9004A8C67 /* APIServiceRequest.swift in Sources */,
+				951EFA81216C45F9004A8C67 /* PrepareRequest.swift in Sources */,
 				951EFADD216C59EC004A8C67 /* UIFont+Extension.swift in Sources */,
 				951EFB58216C667D004A8C67 /* BaseNavigationVC.swift in Sources */,
 				951EFA61216C45DB004A8C67 /* OperationProtocol.swift in Sources */,
@@ -1444,7 +1465,7 @@
 				951EFBB0216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
 				951EFBB6216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */,
 				951EFBAA216C6ACD004A8C67 /* CTBaseCell.swift in Sources */,
-				951EFA9A216C4DCD004A8C67 /* AuthRequest.swift in Sources */,
+				951EFA9A216C4DCD004A8C67 /* AnswerRequest.swift in Sources */,
 				951EFA5E216C45DB004A8C67 /* OperationTask.swift in Sources */,
 				951EFA89216C4627004A8C67 /* NetworkIndicator.swift in Sources */,
 				951EFBB9216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */,
@@ -1459,6 +1480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				951EFAF8216C5A50004A8C67 /* UILabel+Extension.swift in Sources */,
+				E0732592217F85E7006693D5 /* Answer.swift in Sources */,
 				951EFAF5216C5A50004A8C67 /* UIView+Extension.swift in Sources */,
 				951EFAEF216C5A50004A8C67 /* UIButton+Extension.swift in Sources */,
 				951EFAEC216C5A50004A8C67 /* UIImageView+Extension.swift in Sources */,
@@ -1476,7 +1498,7 @@
 				951EFAAA216C5272004A8C67 /* DateTimePicker.swift in Sources */,
 				951EFB84216C69E7004A8C67 /* CheckBox.swift in Sources */,
 				951EFBDC216C6CA5004A8C67 /* CustomInApp.swift in Sources */,
-				951EFA7C216C45F9004A8C67 /* APIServiceError.swift in Sources */,
+				951EFA7C216C45F9004A8C67 /* APIError.swift in Sources */,
 				951EFAFE216C5A50004A8C67 /* UITextField+Extension.swift in Sources */,
 				951EFB89216C6AB0004A8C67 /* GradientLayer.swift in Sources */,
 				951EFB60216C6963004A8C67 /* ColorImageView.swift in Sources */,
@@ -1484,7 +1506,7 @@
 				951EFA92216C4D9D004A8C67 /* BaseAPIResponse.swift in Sources */,
 				951EFBD8216C6C71004A8C67 /* BorderTextField.swift in Sources */,
 				951EFB7B216C69E7004A8C67 /* ShadowButton.swift in Sources */,
-				951EFA97216C4DBE004A8C67 /* LoginAPI.swift in Sources */,
+				951EFA97216C4DBE004A8C67 /* AnswerListAPI.swift in Sources */,
 				951EFB99216C6ACD004A8C67 /* CTSwitchCell.swift in Sources */,
 				951EFB32216C6158004A8C67 /* SharedData.swift in Sources */,
 				951EFB43216C622D004A8C67 /* NotificationService.swift in Sources */,
@@ -1493,7 +1515,9 @@
 				951EFB7E216C69E7004A8C67 /* GradientButton.swift in Sources */,
 				951EFB15216C5B9C004A8C67 /* AttributeString+Extension.swift in Sources */,
 				951EFAD8216C59EC004A8C67 /* Date+Extension.swift in Sources */,
+				E073259F217F9CE5006693D5 /* APIs.swift in Sources */,
 				951EFBA8216C6ACD004A8C67 /* CTTableHeaderView.swift in Sources */,
+				E0732596217F85F8006693D5 /* Owner.swift in Sources */,
 				951EFAE1216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				951EFA51216C4583004A8C67 /* Sounds.swift in Sources */,
 				951EFB0D216C5B17004A8C67 /* UIApplication+Extension.swift in Sources */,
@@ -1505,15 +1529,15 @@
 				951EFB69216C697E004A8C67 /* BaseTextView.swift in Sources */,
 				951EFB9C216C6ACD004A8C67 /* CTTableFooterView.swift in Sources */,
 				951EFB1D216C5F43004A8C67 /* Utils.swift in Sources */,
-				951EFA76216C45F9004A8C67 /* APIServiceResponse.swift in Sources */,
+				951EFA76216C45F9004A8C67 /* APIResponse.swift in Sources */,
 				951EFB0A216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
 				951EFBE1216C6F83004A8C67 /* DatePicker.swift in Sources */,
 				951EFB26216C5F73004A8C67 /* AppConstants.swift in Sources */,
 				951EFB2A216C6062004A8C67 /* EnumType.swift in Sources */,
 				951EFB6E216C69B3004A8C67 /* InsetTextField.swift in Sources */,
-				951EFA6E216C45E7004A8C67 /* NetworkEnviroment.swift in Sources */,
+				951EFA6E216C45E7004A8C67 /* APIEnviroment.swift in Sources */,
 				951EFAC3216C5928004A8C67 /* PickerViewer.swift in Sources */,
-				951EFA7F216C45F9004A8C67 /* APIServiceGeneral.swift in Sources */,
+				951EFA7F216C45F9004A8C67 /* APIGeneral.swift in Sources */,
 				951EFB3A216C622D004A8C67 /* ViewControllerTask.swift in Sources */,
 				951EFA6A216C45E1004A8C67 /* NetworkDispatcher.swift in Sources */,
 				951EFB2F216C6158004A8C67 /* MasterData.swift in Sources */,
@@ -1521,7 +1545,7 @@
 				951EFA4D216C4564004A8C67 /* Font.swift in Sources */,
 				951EFAC9216C5928004A8C67 /* AutoLayoutHelper.swift in Sources */,
 				951EFBCB216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
-				951EFA82216C45F9004A8C67 /* APIServiceRequest.swift in Sources */,
+				951EFA82216C45F9004A8C67 /* PrepareRequest.swift in Sources */,
 				951EFADE216C59EC004A8C67 /* UIFont+Extension.swift in Sources */,
 				951EFB59216C667D004A8C67 /* BaseNavigationVC.swift in Sources */,
 				951EFA62216C45DB004A8C67 /* OperationProtocol.swift in Sources */,
@@ -1533,7 +1557,7 @@
 				951EFBB1216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
 				951EFBB7216C6ACD004A8C67 /* CTCheckmarkCell.swift in Sources */,
 				951EFBAB216C6ACD004A8C67 /* CTBaseCell.swift in Sources */,
-				951EFA9B216C4DCD004A8C67 /* AuthRequest.swift in Sources */,
+				951EFA9B216C4DCD004A8C67 /* AnswerRequest.swift in Sources */,
 				951EFA5F216C45DB004A8C67 /* OperationTask.swift in Sources */,
 				951EFA8A216C4627004A8C67 /* NetworkIndicator.swift in Sources */,
 				951EFBBA216C6ACD004A8C67 /* CTPushDetailCell.swift in Sources */,

@@ -12,15 +12,15 @@ import Alamofire
 
 class NetworkDispatcher: DispatcherProtocol {
     // Singleton variable for using default network enviroment
-    static var shared = NetworkDispatcher(enviroment: NetworkEnviroment.default)
+    static var shared = NetworkDispatcher(enviroment: APIEnviroment.default)
     
     // Request API task
     private var task: DataRequest?
     
     // Network enviroment for executing
-    private var enviroment: NetworkEnviroment
+    private var enviroment: APIEnviroment
     
-    required init(enviroment: NetworkEnviroment) {
+    required init(enviroment: APIEnviroment) {
         self.enviroment = enviroment
     }
     
@@ -44,11 +44,7 @@ class NetworkDispatcher: DispatcherProtocol {
         task?.cancel()
         task = nil
     }
-    
-    func prepareComponentsFor(request: Request) -> ComponentRequest {
-        return ComponentRequest(request: request, enviroment: enviroment)
-    }
-    
+
     func prepareURLRequestFor(request: Request) -> URLRequestConvertible {
         return ConvertibleRequest(request: request, enviroment: enviroment)
     }

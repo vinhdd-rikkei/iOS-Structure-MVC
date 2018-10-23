@@ -9,7 +9,15 @@
 import UIKit
 
 extension Error {
+    var errorCode: Int? {
+        return (self as NSError).code
+    }
+    
     func isInternetOffline() -> Bool {
         return (self as? URLError)?.code  == .notConnectedToInternet
+    }
+    
+    func isTimeout() -> Bool {
+        return (self as? URLError)?.code  == .timedOut
     }
 }
