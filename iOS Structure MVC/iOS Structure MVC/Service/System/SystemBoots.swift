@@ -19,47 +19,16 @@ class SystemBoots {
     weak var appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
     
     // MARK: - Actions
-    func bootsFor(window: inout UIWindow?, rootController: UIViewController) {
+    func changeRoot(window: inout UIWindow?, rootController: UIViewController) {
         // Setup app's window
-        guard window == nil else { return }
+        guard window == nil else {
+            window?.rootViewController = rootController
+            // window?.makeKeyAndVisible()
+            return
+        }
         window = UIWindow(frame: AppConstants.screenBounds)
         window?.backgroundColor = .white
         window?.rootViewController = rootController
         window?.makeKeyAndVisible()
-
-        // Config app
-        basicAppConfig()
-    }
-    
-    // MARK: - Setup
-    private func basicAppConfig() {
-        // TODO: - Setup basic configuration for app
-    }
-    
-    // MARK: - Builder
-    func setRoot(controller: UIViewController) {
-        appDelegate?.window?.rootViewController = controller
-    }
-}
-
-extension SystemBoots {
-    func appWillResignActive(_ application: UIApplication) {
-        // Do nothing
-    }
-    
-    func appDidEnterBackground(_ application: UIApplication) {
-        // Do nothing
-    }
-    
-    func appWillEnterForeground(_ application: UIApplication) {
-        // Do nothing
-    }
-    
-    func appDidBecomeActive(_ application: UIApplication) {
-        // Do nothing
-    }
-    
-    func appWillTerminate(_ application: UIApplication) {
-        // Do nothing
     }
 }

@@ -12,13 +12,13 @@ import Alamofire
 
 class NetworkDispatcher: DispatcherProtocol {
     // Singleton variable for using default network enviroment
-    static var shared = NetworkDispatcher(enviroment: APIEnviroment.default)
+    //static var shared = NetworkDispatcher(enviroment: APIEnviroment.default)
     
     // Request API task
     private var task: DataRequest?
     
     // Network enviroment for executing
-    private var enviroment: APIEnviroment
+    private var enviroment: APIEnviroment = APIEnviroment.default
     
     required init(enviroment: APIEnviroment) {
         self.enviroment = enviroment
