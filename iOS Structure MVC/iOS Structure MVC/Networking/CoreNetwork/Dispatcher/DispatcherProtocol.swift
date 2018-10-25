@@ -15,7 +15,7 @@ public protocol DispatcherProtocol {
     init(enviroment: APIEnviroment)
     
     // Execute the request
-    func execute(request: Request, retry: Int) throws -> Promise<Response>
+    func execute(request: RequestProtocol, retry: Int) throws -> Promise<Response>
     func cancel()
-    func prepareURLRequestFor(request: Request) -> URLRequestConvertible
+    func prepareURLRequestFor(request: RequestProtocol) -> URLRequestConvertible
 }

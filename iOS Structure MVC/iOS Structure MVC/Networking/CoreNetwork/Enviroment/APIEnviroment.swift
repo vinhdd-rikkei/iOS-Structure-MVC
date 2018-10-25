@@ -14,11 +14,11 @@ public class APIEnviroment {
     // MARK: - Local variables
     class var `default`: APIEnviroment {
         return APIEnviroment(name: ProcessInfo.processInfo.environment["targetName"] ?? "",
-                                 host: APIConstants.baseUrl,
-                                 headers: APIConstants.httpHeaders,
-                                 encoding: URLEncoding.default,
-                                 retryTime: 1,
-                                 timeout: 10)
+                             host: APIConstants.baseUrl,
+                             headers: APIConstants.httpHeaders,
+                             encoding: URLEncoding.default,
+                             retryTime: 1,
+                             timeout: 30)
     }
 
     // Name of the enviroment (default is name of current scheme)

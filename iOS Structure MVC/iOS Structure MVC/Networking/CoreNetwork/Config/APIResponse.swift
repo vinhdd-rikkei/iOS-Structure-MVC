@@ -16,7 +16,7 @@ public enum Response {
     case data(_: Data)
     case error(_: Int?, _: Error)
     
-    init(_ response: DataResponse<Any>, for request: Request) {
+    init(_ response: DataResponse<Any>, for request: RequestProtocol) {
         // Get status code
         let statusCode = response.response?.statusCode
         
@@ -50,7 +50,4 @@ public protocol ModelResponseProtocol {
 
     // Set json as input variable
     init(json: JSON)
-    
-    // Action
-    func printInfo()
 }

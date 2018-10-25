@@ -18,7 +18,7 @@ public class ComponentRequest {
     var parameters: Parameters?
     var encoding: ParameterEncoding?
     
-    init(request: Request, enviroment: APIEnviroment) {
+    init(request: RequestProtocol, enviroment: APIEnviroment) {
         // Request url
         fullUrl = enviroment.host + "/" + request.path
         
@@ -42,7 +42,7 @@ public class ComponentRequest {
         case .url(let params): parameters = params
         }
         
-        print("\n[Request API] -> [\(request.apiIdentifier)] -> Preparing...")
+        print("\n[Request API] -> [\(request.id)] -> Preparing...")
         print("⬩ Full url: \(fullUrl ?? "-")")
         print("⬩ Method: \(String(describing: method))")
         let headersToPrint = httpHeaders ?? [:]
@@ -58,16 +58,16 @@ public class ComponentRequest {
             print("⬩ Parameters: empty")
         }
         print("⬩ Encoding: \(String(describing: encoding))")
-        print("-> [\(request.apiIdentifier)] Requesting...")
+        print("-> [\(request.id)] Requesting...")
     }
 }
 
 class ConvertibleRequest: URLRequestConvertible {
    
-    private var request: Request
+    private var request: RequestProtocol
     private var enviroment: APIEnviroment
     
-    init(request: Request, enviroment: APIEnviroment) {
+    init(request: RequestProtocol, enviroment: APIEnviroment) {
         self.request = request
         self.enviroment = enviroment
     }
@@ -98,7 +98,7 @@ class ConvertibleRequest: URLRequestConvertible {
         case .url(let params): parameters = params
         }
         
-        print("\n[Request API] -> [\(request.apiIdentifier)] -> Preparing...")
+        print("\n[Request API] -> [\(request.id)] -> Preparing...")
         print("⬩ Full url: \(fullUrl)")
         print("⬩ Method: \(request.method.rawValue)")
         let headersToPrint = JSON(urlRequest.allHTTPHeaderFields ?? [:])
@@ -113,7 +113,7 @@ class ConvertibleRequest: URLRequestConvertible {
         } else {
             print("⬩ Parameters: empty")
         }
-        print("-> [\(request.apiIdentifier)] Requesting...")
+        print("-> [\(request.id)] Requesting...")
         return try enviroment.encoding.encode(urlRequest, with: parameters)
     }
 }

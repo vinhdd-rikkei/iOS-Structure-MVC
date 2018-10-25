@@ -9,12 +9,11 @@
 import UIKit
 import SwiftyJSON
 
-class AnswerListAPIResponse: BaseAPIResponse {
+class AnswerListAPIResponse: ModelResponseProtocol {
     
     var answerList: [Answer] = []
     
     required init(json: JSON) {
-        super.init(json: json)
         // Parse json data from server to local variables
         answerList = json["items"].arrayValue.map({ Answer.init(json: $0) })
     }

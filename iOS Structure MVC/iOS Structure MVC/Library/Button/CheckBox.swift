@@ -8,27 +8,26 @@
 
 import UIKit
 
-@IBDesignable
-class CheckBox: UIButton {
-    // Images
+@IBDesignable class CheckBox: UIButton {
+    // MARK: - Inspectable
     @IBInspectable var checkedImage : UIImage?
     @IBInspectable var uncheckedImage : UIImage?
-    
-    // Bool property
-     @IBInspectable var isChecked: Bool = false {
-        didSet{
+    @IBInspectable var isChecked: Bool = false {
+        didSet {
             let image = isChecked ? checkedImage : uncheckedImage
-            self.setBackgroundImage(image, for: UIControl.State.normal)
+            setBackgroundImage(image, for: .normal)
         }
     }
     
+    // MARK: - Setup
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.addTarget(self, action:#selector(buttonClicked(sender:)), for: UIControl.Event.touchUpInside)
-        self.isChecked = false
+        addTarget(self, action:#selector(buttonClicked(sender:)), for: .touchUpInside)
+        isChecked = false
     }
     
-    @objc func buttonClicked(sender: UIButton) {
+    // MARK: - Action
+    @objc private func buttonClicked(sender: UIButton) {
         if sender == self {
             isChecked = !isChecked
         }

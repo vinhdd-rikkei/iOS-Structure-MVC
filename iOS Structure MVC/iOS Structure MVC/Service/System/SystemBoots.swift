@@ -23,7 +23,7 @@ class SystemBoots {
         // Setup app's window
         guard window == nil else {
             window?.rootViewController = rootController
-            // window?.makeKeyAndVisible()
+            window?.makeKeyAndVisible()
             return
         }
         window = UIWindow(frame: AppConstants.screenBounds)

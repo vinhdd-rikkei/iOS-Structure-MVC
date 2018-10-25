@@ -19,8 +19,8 @@ public enum DataType {
 }
 
 // Request protocol
-public protocol Request {
-    var apiIdentifier: String { get }
+public protocol RequestProtocol {
+    var id: String { get }
     var path: String { get }
     var method: HTTPMethod { get }
     var parameters: RequestParams { get }

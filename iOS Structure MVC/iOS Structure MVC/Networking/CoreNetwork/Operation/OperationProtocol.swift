@@ -10,12 +10,9 @@ import UIKit
 import Hydra
 
 protocol OperationProtocol {
-    // Define Output type that should returns
-    associatedtype Output
-    
-    // APi code
-    var code: String { get }
+    // API id
+    var id: String { get }
     
     // Request
-    var request: Request? { set get }
+    var request: RequestProtocol? { set get }
 }

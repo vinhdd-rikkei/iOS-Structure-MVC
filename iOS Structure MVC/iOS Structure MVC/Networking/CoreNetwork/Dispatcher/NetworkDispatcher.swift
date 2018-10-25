@@ -24,7 +24,7 @@ class NetworkDispatcher: DispatcherProtocol {
         self.enviroment = enviroment
     }
     
-    func execute(request: Request, retry: Int) throws -> Promise<Response> {
+    func execute(request: RequestProtocol, retry: Int) throws -> Promise<Response> {
         // Execute the request
         let urlRequest = prepareURLRequestFor(request: request)
         let op = Promise<Response>.init(in: .background, { resolve, reject, _ in
@@ -45,7 +45,7 @@ class NetworkDispatcher: DispatcherProtocol {
         task = nil
     }
 
-    func prepareURLRequestFor(request: Request) -> URLRequestConvertible {
+    func prepareURLRequestFor(request: RequestProtocol) -> URLRequestConvertible {
         return ConvertibleRequest(request: request, enviroment: enviroment)
     }
 }

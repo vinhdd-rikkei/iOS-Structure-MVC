@@ -32,14 +32,14 @@ class OperationTask<T: ModelResponseProtocol>: OperationProtocol {
     // MARK: - Variables
     private var taskData = TaskData()
     
-    final var code: String {
-        return request?.apiIdentifier ?? "--"
+    final var id: String {
+        return request?.id ?? "--"
     }
     
-    var request: Request?
+    var request: RequestProtocol?
     
     // MARK: - Init
-    init(request: Request) {
+    init(request: RequestProtocol) {
         self.request = request
     }
     
@@ -104,7 +104,7 @@ class OperationTask<T: ModelResponseProtocol>: OperationProtocol {
                 }
                 try dispatcher.execute(request: request, retry: retry).then({ response in
                     self.parse(response: response, completion: { output, error in
-                        print("-> [\(request.apiIdentifier)] Requested successfully !!")
+                        print("-> [\(request.id)] Requested successfully !!")
                         if showIndicator {
                             run(queue: .main) { NetworkIndicator.hide() }
                         }
@@ -142,7 +142,7 @@ class OperationTask<T: ModelResponseProtocol>: OperationProtocol {
     }
     
     func cancel(with dispatcher: DispatcherProtocol? = nil) {
-        (dispatcher ?? NetworkDispatcher.shared).cancel()
+        dispatcher?.cancel()
     }
     
     private func parse(response: Response, completion: @escaping ((_ output: T?, _ error: APIError?) -> Void)) {
@@ -174,7 +174,6 @@ class OperationTask<T: ModelResponseProtocol>: OperationProtocol {
     }
     
     private func callbackSuccess(output: T) {
-        output.printInfo()
         taskData.successHandler?(output)
     }
     

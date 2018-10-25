@@ -9,20 +9,23 @@
 import UIKit
 import Alamofire
 
-public enum AnswerRequest: Request {
+public enum AnswerRequest: RequestProtocol {
     case getAnswerList(order: String, sort: String, site: String)
+    case postAnswer(text: String)
     
     // This variable is used for debugging (print in console)
-    public var apiIdentifier: String {
+    public var id: String {
         switch self {
         case .getAnswerList:
             return "API0001 ⬩ Get answer"
+        case .postAnswer:
+            return "API0002 ⬩ Post answer"
         }
     }
     
     public var path: String {
         switch self {
-        case .getAnswerList:
+        case .getAnswerList, .postAnswer:
             return "answers"
         }
     }
@@ -31,6 +34,8 @@ public enum AnswerRequest: Request {
         switch self {
         case .getAnswerList:
             return .get
+        case .postAnswer:
+            return .post
         }
     }
     
@@ -41,6 +46,8 @@ public enum AnswerRequest: Request {
             baseParams["order"] = order
             baseParams["sort"] = sort
             baseParams["site"] = site
+        case .postAnswer(let text):
+            baseParams["text"] = text
         }
         return .body(baseParams)
     }
